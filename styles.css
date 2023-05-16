@@ -1,3 +1,5 @@
+
+/* Estilos para la interfaz del cajero automático */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -5,7 +7,7 @@ body {
   
   .container {
     width: 400px;
-    margin: 0 auto;
+    margin: 0 auto;  /* Centra el contenedor horizontalmente */ 
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -52,5 +54,6 @@ body {
   }
   
   button:hover {
+      /* Cambio el color del  botón al pasar el cursor sobre él */
     background-color: #45a049;
   }

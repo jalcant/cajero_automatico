@@ -1,3 +1,4 @@
+// Arreglo de cuentas con sus nombres y saldos//
 var cuentas = [
     { nombre: "Mali", password: "123456", saldo: 200 },
     { nombre: "Gera", password: "clave2", saldo: 290 },
@@ -14,7 +15,7 @@ var cuentas = [
     if (cuentaIndex >= 0 && cuentaIndex < cuentas.length) {
       var cuenta = cuentas[cuentaIndex];
   
-      if (password === cuenta.nombre) {
+      if (password === cuenta.password) {
         cuentaSeleccionada = cuentaIndex;
         saldoActual = cuenta.saldo;
         document.getElementById("login").style.display = "none";
